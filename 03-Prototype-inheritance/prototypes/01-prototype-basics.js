@@ -259,4 +259,3 @@ console.log(arr.last());  // 5
 // 5. Класи ES6 - це синтаксичний цукор над прототипами
 // 6. Методи додаються до prototype, а не до кожного об'єкта окремо
 // 7. Наслідування через прототипи: Child.prototype = Object.create(Parent.prototype)
-

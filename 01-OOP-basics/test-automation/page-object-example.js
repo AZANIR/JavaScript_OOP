@@ -31,7 +31,7 @@ class BasePage {
     // Захищений метод для очікування елемента
     async _waitForElement(selector, timeout = 5000) {
         // Спрощена версія - в реальності використовуйте методи драйвера
-        console.log(`Очікування елемента: ${selector}`);
+        console.log(`Очікування елемента: ${selector}`); //app-lesson-meeting div.lesson-meeting__actions>a
         return true;
     }
 

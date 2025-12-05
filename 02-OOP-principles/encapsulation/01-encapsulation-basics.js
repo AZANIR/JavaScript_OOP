@@ -248,3 +248,16 @@ console.log(summary);
 // Деталі обчислень приховані - користувач отримує тільки результат
 console.log(cart.getTotal());  // 23400
 
+class Secret {
+    // Приватне поле
+    #secretCode = "app-lesson-meeting div.lesson-meeting__actions>a";
+
+    // Публічний метод для перевірки коду
+    isCodeValid(code) {
+        return code === this.#secretCode;
+    }
+}
+
+const secrets = new Secret();
+console.log(secrets.isCodeValid("app-lesson-meeting div.lesson-meeting__actions>a")); // true
+// console.log(secrets.#secretCode); // SyntaxError: Private field

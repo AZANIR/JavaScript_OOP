@@ -70,7 +70,7 @@ const temp = new Temperature(25);
 // Використання геттерів (виглядає як звичайна властивість)
 console.log(temp.celsius);      // 25
 console.log(temp.fahrenheit);   // 77 (обчислюється автоматично)
-console.log(temp.kelvin);        // 298.15 (обчислюється автоматично)
+console.log(temp.kelvin);       // 298.15 (обчислюється автоматично)
 
 // Використання сеттерів (виглядає як звичайне присвоєння)
 temp.celsius = 30;
